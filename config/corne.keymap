@@ -28,21 +28,18 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LSHFT_CAPS";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
             bindings = <&kp LSHFT>, <&kp CAPS>;
         };
 
         td_left_home: td_left_home {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <500>;
             bindings = <&kp LEFT>, <&kp HOME>;
         };
 
         td_right_end: td_right_end {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <500>;
             bindings = <&kp RIGHT>, <&kp END>;
         };
 
@@ -70,16 +67,12 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp UP>, <&kp PG_UP>;
-
-            tapping-term-ms = <500>;
         };
 
         td_dn_pg: td_dn_pg {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp DOWN>, <&kp PG_DN>;
-
-            tapping-term-ms = <500>;
         };
     };
 
